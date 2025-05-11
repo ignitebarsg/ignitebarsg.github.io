@@ -41,8 +41,7 @@
     <meta property="twitter:image" content="hero.webp"/>
 
     <link rel="canonical" href="https://ignitebarsg.com/"/>
-
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <script
@@ -122,32 +121,34 @@
 <picture>
     <source
         media="(min-width: 1440)"
-        srcset="hero-1440.webp"
+        srcset="hero-1440.webp 1440w"
         sizes="100vw"
     />
     <source
         media="(min-width: 1280)"
-        srcset="hero-1280.webp"
+        srcset="hero-1280.webp 1280w"
         sizes="100vw"
     />
     <source
         media="(min-width: 1024px)"
-        srcset="hero-1024.webp"
+        srcset="hero-1024.webp 1024w"
         sizes="100vw"
     />
     <source
         media="(min-width: 768px)"
-        srcset="hero-768.webp"
+        srcset="hero-768.webp 768w"
         sizes="100vw"
     />
     <source
         media="(min-width: 480px)"
-        srcset="hero-480.webp"
+        srcset="hero-480.webp 480w"
         sizes="100vw"
     />
     <img
         class="w-full"
         src="hero-1440.webp"
+        width="1440"
+        height="741"
         alt="A cocktail on a bar counter"
         loading="lazy"
     />
@@ -167,7 +168,6 @@
             <a href="menu.pdf" target="_blank" class="block w-full sm:w-1/2">
                 <div class="overflow-hidden rounded-lg shadow-lg">
                     <img
-                        loading="lazy"
                         height="410"
                         width="410"
                         src="drinks.webp"
@@ -179,7 +179,6 @@
             <div class="block w-full relative sm:w-1/2">
                 <div class="overflow-hidden rounded-lg shadow-lg">
                     <img
-                        loading="lazy"
                         src="food.webp"
                         height="410"
                         width="410"
