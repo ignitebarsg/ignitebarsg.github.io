@@ -150,11 +150,11 @@
     <main class="mt-10 md:mt-16 px-8 sm:px-4 flex flex-col">
       <section class="relative">
         <div id="about" class="absolute -top-16"></div>
-        <h2
+        <h1
           class="font-serif text-primary text-3xl sm:text-4xl text-center mb-4"
         >
-          About us
-        </h2>
+          About us - Ignite Bistro and Bar
+        </h1>
         <p class="max-w-3xl mx-auto text-center text-lg sm:text-xl">
           At Ignite, we offer a dynamic menu that blends the warmth of modern
           Chinese food with bold, creative Western influences. Each dish is
@@ -249,31 +249,99 @@
           <div
             class="flex flex-col gap-y-4 text-center md:text-left w-full md:w-1/3"
           >
-            <div>
-              <p><strong>Address</strong></p>
+            <section>
+              <h3><strong>Opening hours</strong></h3>
+              <p>Every day except Tuesday: 5 PM to midnight</p>
+              <p>Tuesday: <span class="font-medium">Closed</span></p>
+            </section>
+
+            <section>
+              <h3><strong>Address</strong></h3>
               <a
                 href="https://maps.app.goo.gl/UtUZtTExTzAep5Wk9"
+                target="_blank"
+                rel="noopener noreferrer"
                 class="underline hover:text-red-500"
+                onclick="
+const newSrc = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.74857013518!2d103.84123287441182!3d1.3268198616506188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da170023eb82ef%3A0xae4a1e8ce6057640!2sIgnite%20Bistro%20%26%20Bar!5e0!3m2!1sen!2ssg!4v1749361721448!5m2!1sen!2ssg'
+                        const iframe = document.querySelector('iframe')
+                        if (iframe.src !== newSrc) {
+                            iframe.src = newSrc
+                        }
+"
                 ><p>#01-07 1 Jalan Dusun</p>
                 <p>Singapore 329363</p></a
               >
-            </div>
+            </section>
 
-            <div>
-              <p><strong>Opening hours</strong></p>
-              <p>Monday: 5 PM to midnight</p>
-              <p>Tuesday: <span class="font-medium">Closed</span></p>
-              <p>Wednesday: 5 PM to midnight</p>
-              <p>Thursday: 5 PM to midnight</p>
-              <p>Friday: 5 PM to midnight</p>
-              <p>Saturday: 5 PM to midnight</p>
-              <p>Sunday: 5 PM to midnight</p>
-            </div>
+            <section>
+              <h3><strong>Getting here</strong></h3>
+              <button
+                class="inline underline hover:text-red-500 cursor-pointer"
+                onclick="
+                        const newSrc = 'https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d7977.489582490193!2d103.84022044116804!3d1.3291613946329293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x31da17673b471269%3A0x7a1422713b26e9a8!2sToa%20Payoh%20Interchange%2C%20Lorong%201%20Toa%20Payoh%2C%20Singapore!3m2!1d1.3320243999999999!2d103.84691!4m5!1s0x31da170023eb82ef%3A0xae4a1e8ce6057640!2sJalan%20Dusun%2C%20Ignite%20Bistro%20%26%20Bar%2C%20Dusun%20Residences%2C%20Singapore!3m2!1d1.3268145!2d103.8438078!5e0!3m2!1sen!2ssg!4v1749426074673!5m2!1sen!2ssg'
+                        const iframe = document.querySelector('iframe')
+                        if (iframe.src !== newSrc) {
+                            iframe.src = newSrc
+                        }
+"
+              >
+                From Toa Payoh MRT</button
+              >: 139, 145
+              <button
+                class="inline underline hover:text-red-500 cursor-pointer"
+                onclick="
+                        const newSrc = 'https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d7977.512366649764!2d103.83780438895269!3d1.3220898706825284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x31da191b70ea1807%3A0xc31ecbb52535bc22!2sThomson%20Road%2C%20Novena%20MRT%20Station%20(NS20)%2C%20Singapore!3m2!1d1.3202680999999998!2d103.8435124!4m5!1s0x31da170023eb82ef%3A0xae4a1e8ce6057640!2sJalan%20Dusun%2C%20Ignite%20Bistro%20%26%20Bar%2C%20Dusun%20Residences%2C%20Singapore!3m2!1d1.3268145!2d103.8438078!5e0!3m2!1sen!2ssg!4v1749426738186!5m2!1sen!2ssg'
+                        const iframe = document.querySelector('iframe')
+                        if (iframe.src !== newSrc) {
+                            iframe.src = newSrc
+                        }
+"
+              >
+                From Novena MRT</button
+              >: 131 (or walk 🫠)
+              <button
+                class="inline underline hover:text-red-500 cursor-pointer"
+                onclick="
+                        const newSrc = 'https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d12959.459980797043!2d103.83439424919894!3d1.3310093661796025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x31da17437b0cea0f%3A0xfc818db437fe44b!2sToa%20Payoh%20Rise%2C%20Caldecott%20MRT%20Station%20(CC17)%2C%20Singapore!3m2!1d1.3378174!2d103.8394749!4m5!1s0x31da170023eb82ef%3A0xae4a1e8ce6057640!2sJalan%20Dusun%2C%20Ignite%20Bistro%20%26%20Bar%2C%20Dusun%20Residences%2C%20Singapore!3m2!1d1.3268145!2d103.8438078!5e0!3m2!1sen!2ssg!4v1749426589304!5m2!1sen!2ssg'
+                        const iframe = document.querySelector('iframe')
+                        if (iframe.src !== newSrc) {
+                            iframe.src = newSrc
+                        }
+"
+              >
+                From Caldecott MRT</button
+              >: 130
+              <button
+                class="inline underline hover:text-red-500 cursor-pointer"
+                onclick="
+                        const newSrc = 'https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d15955.034928586725!2d103.84035203839944!3d1.3205025308095717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x31da19c610315f9b%3A0xe2ed756f519371fb!2sRace%20Course%20Road%2C%20Farrer%20Park%20MRT%20Station%20(NE8)%2C%20Singapore!3m2!1d1.3126702!2d103.85470769999999!4m5!1s0x31da170023eb82ef%3A0xae4a1e8ce6057640!2sJalan%20Dusun%2C%20Ignite%20Bistro%20%26%20Bar%2C%20Dusun%20Residences%2C%20Singapore!3m2!1d1.3268145!2d103.8438078!5e0!3m2!1sen!2ssg!4v1749426942617!5m2!1sen!2ssg'
+                        const iframe = document.querySelector('iframe')
+                        if (iframe.src !== newSrc) {
+                            iframe.src = newSrc
+                        }
+"
+              >
+                From Farrer Park MRT</button
+              >: 131
+              <button
+                class="inline underline hover:text-red-500 cursor-pointer"
+                onclick="
+                        const newSrc = 'https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d31910.073136480496!2d103.8120762186058!3d1.320247069312191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x31da199e56cd4d87%3A0xaa48240851306fff!2sStevens%20Road%2C%20Stevens%20MRT%20Station%20(TE11)%2C%20Singapore!3m2!1d1.3188636!2d103.8256996!4m5!1s0x31da170023eb82ef%3A0xae4a1e8ce6057640!2sJalan%20Dusun%2C%20Ignite%20Bistro%20%26%20Bar%2C%20Dusun%20Residences%2C%20Singapore!3m2!1d1.3268145!2d103.8438078!5e0!3m2!1sen!2ssg!4v1749427008528!5m2!1sen!2ssg'
+                        const iframe = document.querySelector('iframe')
+                        if (iframe.src !== newSrc) {
+                            iframe.src = newSrc
+                        }
+"
+              >
+                From Stevens MRT</button
+              >: 186
+            </section>
 
-            <div>
-              <p><strong>Reservations</strong></p>
+            <section>
+              <h3><strong>Reservations</strong></h3>
               <p>+65 8715 3394</p>
-            </div>
+            </section>
 
             <div
               class="flex flex-row justify-center md:justify-start space-x-4 py-4 fill-slate-50"
