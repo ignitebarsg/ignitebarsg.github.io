@@ -1,20 +1,44 @@
 @import "tailwindcss";
 
 @font-face {
-  font-family: 'Montserrat';
-  src: url('./montserrat.ttf');
+  font-family: "Montserrat";
+  src: url("./montserrat.ttf");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Coriolis';
-  src: url('./coriolis.otf');
+  font-family: "Coriolis";
+  src: url("./coriolis.otf");
   font-weight: normal;
   font-style: normal;
 }
 
 @theme {
-    --font-serif: 'Coriolis', serif;
-    --font-sans: 'Montserrat', sans-serif;
+  --color-peach-50: #fff2eb;
+  --color-peach-100: #ffe4d5;
+  --color-peach-200: #fec6aa;
+  --color-peach-300: #fd9e74;
+  --color-peach-400: #fb6b3c;
+  --color-peach-500: #f94416;
+  --color-peach-600: #ea2a0c;
+  --color-peach-700: #c21c0c;
+  --color-peach-800: #9a1812;
+  --color-peach-900: #7c1712;
+  --color-peach-950: #430807;
+
+  --color-red-50: #fff1f2;
+  --color-red-100: #ffe1e2;
+  --color-red-200: #ffc8ca;
+  --color-red-300: #ffa1a4;
+  --color-red-400: #fe6b70;
+  --color-red-500: #f73c43;
+  --color-red-600: #e41e25;
+  --color-red-700: #ba141a;
+  --color-red-800: #9f151a;
+  --color-red-900: #84181c;
+  --color-red-950: #480709;
+
+  --font-serif: "Coriolis", serif;
+  --font-sans: "Montserrat", sans-serif;
 }
